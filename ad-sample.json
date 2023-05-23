@@ -1,0 +1,21 @@
+{
+"contacts": {
+"firstName": "Jean",
+"lastName": "Bonneau",
+"email": "alex@terieur.fr",
+"phone1": {
+"value": "0607080910"
+}
+},
+"creationDate": "2020-01-09T09:02:22.610Z",
+"price": 19000,
+"publicationOptions": ["STRENGTHS", "BOOST_VO"],
+"reference": "REF_CG_PGS_199617",
+"item": {
+"make": "CHINESE GENERIC",
+"model": "PINK GLITTER SPRAY",
+"version": "100ML",
+"category": "SPRAY",
+"eanCode": "9-782940-199617"
+}
+}
