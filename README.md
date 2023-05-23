@@ -1,6 +1,6 @@
 # ad-review-bot
 
-Ce projet a pour objectif de créer un batch permettant de review un ensemble de petites-annonces avec des règles spécifiques.
+Ce projet a pour objectif de créer un batch avec RoR permettant de review un ensemble de petites-annonces avec des règles spécifiques.
 
 `Temps de réalisation : Entre 1h et 3h`
 
@@ -63,3 +63,6 @@ Votre script devra sortir un objet json dans le SIGOUT de ce format :
 
 Afin d'aider le débogage et de pouvoir faire des statistiques sur les différentes règles, on souhaite pour une annonce savoir quelles règles ont déterminé qu'elle était une arnaque. 
 Si au moins une de ces règles détermine que l'annonce est une arnaque renvoyer le champ scam à true et le nom des règles ayant déterminée que c'était une arnaque.
+
+## Procédure
+Clonez ou téléchargez le repo (pas de Fork ni de PR), faites votre implem, et pushez sur un repo public de votre handle Github.
