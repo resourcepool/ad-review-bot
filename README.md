@@ -14,11 +14,12 @@ affaires, des internautes versent parfois la totalité du paiement sans même de
 
 
 ## Organisation
-Créez un projet contenant un script que l'on peut exécuter depuis la ligne de commande qui implémente des règles en dur de détection d'arnaques sur des annonces.
+Créez un projet contenant une webapp que l'on peut qui implémente des règles en dur de détection d'arnaques sur des annonces.
 Organisez votre projet de façon à ce qu'il soit facilement évolutif (sans overdesigner non plus), mettez en place tous les outils qui vous semblent pertinents et que vous aimeriez avoir dans un projet sur lequel vous travaillez (s'ils ne sont pas disponibles en local, listez-les et présentez leur usage en quelques mots).
 
-Il n'est pas nécessaire de mettre en place une gestion des arguments de la ligne de commande, on pourra charger l'annonce directement dans les sources.  
 Le modèle d'annonce est disponible dans le fichier `ad-sample.json`.
+
+Pour appeler le controller, nous utiliserons le endpoint `/verify` avec la méthode `POST`.
 
 Pour simplifier le développement, on part du principe que **tous les champs sont systématiquement renseignés**.
 
